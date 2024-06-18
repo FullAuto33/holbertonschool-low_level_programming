@@ -14,7 +14,7 @@ int main(void)
 char lettre = 'a';
 while (lettre <= 'z')
 {
-if (lettre != 'q' || lettre != 'e')
+if (lettre != 'q' && lettre != 'e')
 {
 putchar(lettre);
 lettre++;
