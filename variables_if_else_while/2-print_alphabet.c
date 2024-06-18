@@ -1,13 +1,21 @@
 #include <stdio.h>
 
+/**
+ * main - I sometimes suffer from insomnia.
+ *
+ * Description: prints the alphabet in lowercase, followed by a new line.
+ *
+ * Return: Always 0.
+ */
+
 int main(void)
 {
 char lettre = 'a';
 while (lettre <= 'z')
 {
-  putchar(lettre);
-  lettre+=1;
+putchar(lettre);
+lettre++;
 }
-  putchar('\n');
-  return (0);
+putchar('\n');
+return (0);
 }
