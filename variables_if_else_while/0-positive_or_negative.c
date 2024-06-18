@@ -1,4 +1,3 @@
-
 /*
  * Create by djelloul in holberton
  */
@@ -28,13 +27,13 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n < 0)
-		printf("%d is negative\n", n);
-	else
-		printf("%d is zero\n", n);
+	if (n > 0)/* Fonction si n est plus grand que 0*/
+	printf("%d is positive\n", n); /*Affiche n est positive*/
+	else if (n == 0)/* Fonction si n est egal a zero*/
+	printf("%d is zero\n", n);/*Affiche n est egal a zero*/
+	else/* Fonction sinon pour n inferieur a0*/
+	  printf("%d is negative\n", n);/*affiche n est negative*/
 
 	/* your code goes there */
-	return (0);
+	return (0);/*retourne 0*/
 }
