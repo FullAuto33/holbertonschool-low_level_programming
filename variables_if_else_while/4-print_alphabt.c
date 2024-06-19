@@ -1,3 +1,7 @@
+/*
+ *Create by Djelloul in Holberton
+ */
+
 #include <stdio.h>
 
 /**
@@ -11,19 +15,19 @@
 
 int main(void)
 {
-char lettre = 'a';
-while (lettre <= 'z')
+char lettre = 'a';/*ajoute le caractere 'a' a la variable lettre*/
+while (lettre <= 'z')/*tant que lettre est inferieur a z*/
 {
-if (lettre != 'q' && lettre != 'e')
+if (lettre != 'q' && lettre != 'e')/*si lettre et different de q et e*/
 {
-putchar(lettre);
-lettre++;
+putchar(lettre);/*renvoie lettre*/
+lettre++;/*ajoute +1 a lettre*/
 }
-else
+else/*sinon*/
 {
-lettre++;
-}
-}
-putchar('\n');
-return (0);
+lettre++;/*ajoute +1a lettre*/
+}}
+
+putchar('\n');/*renvoie a la ligne*/
+return (0);/*retourne 0*/
 }
