@@ -17,16 +17,16 @@
 int main(void)
 {
 int n;/*n est un nombre entier integer*/
-char virgue = ',';
-char space = ' ';
+char virgue = ','; /* on donne un charactere , a virgue*/
+char space = ' ';/* on donne un charactere ' ' a space*/
 n = 0;/* n egale a 0*/
 while (n <= 9)/*tant que n est plus petit a 9*/
 {
 putchar('0' + n);/*affiche n*/
-if (n < 9)
+if (n < 9)/*si n est plus petit que 9*/
 {
-putchar(virgue);
-putchar(space);
+putchar(virgue);/* renvoie la virgule*/
+putchar(space);/* renvoie espcace */
 }
 n = n + 1;/*ajoute +1 a n*/
 }
