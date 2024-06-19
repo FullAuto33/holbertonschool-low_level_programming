@@ -14,7 +14,7 @@
 int main(void)
 {
 char lettre = 'z'; /* affecte le charactere 'a' a la variable lettre*/
-while (lettre <= 'a') /*Tant que lettre inferieur ou egal a z*/
+while (lettre >= 'a') /*Tant que lettre inferieur ou egal a z*/
 {
 putchar(lettre);/*Renvoie le charactere de lettre*/
 lettre--;/*on change de lettre on ajoute 1 a la variable lettre*/
