@@ -11,15 +11,17 @@
 
 int main(void)
 {
-char letter;
+char lettre; /* lettre est une chaine caractere*/
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+for (lettre = 'a'; lettre <= 'z'; lettre++)
+/*pour lettre de a to z on avance de 1 lettre*/
+putchar (lettre);/*renvoie le caractere de lettre*/
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
+for (lettre = 'A'; lettre <= 'Z'; lettre++)
+/*pour lettre de A to Z on avance de 1 lettre*/
+putchar(lettre);/*renvoie caractere lettre*/
 
-	putchar('\n');
+putchar('\n');/*renvoie a la ligne*/
 
-	return (0);
+return (0);/*retourne 0*/
 }
