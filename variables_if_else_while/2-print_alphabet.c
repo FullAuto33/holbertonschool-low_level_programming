@@ -10,12 +10,12 @@
 
 int main(void)
 {
-char lettre = 'a';
-while (lettre <= 'z')
+char lettre = 'a'; /* affecte le charactere 'a' a la variable lettre*/
+while (lettre <= 'z') /*Tant que lettre inferieur ou egal a z*/
 {
-putchar(lettre);
-lettre++;
+putchar(lettre);/*Renvoie le charactere de lettre*/
+lettre++;/*on change de lettre on ajoute 1 a la variable lettre*/
 }
-putchar('\n');
-return (0);
+putchar('\n');/*Renvoie un saut a la ligne*/
+return (0);/*retourne 0*/
 }
