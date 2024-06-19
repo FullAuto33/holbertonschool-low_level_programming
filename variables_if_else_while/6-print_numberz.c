@@ -17,7 +17,7 @@
 int main(void)
 {
 int n;/*n est un nombre entier integer*/
-n = 0;/* n egale a 0*/
+n = '0';/* n egale a 0*/
 while (n <= 9)/*Tant que n est plus petit a 9*/
 {
 putchar(n);/*affiche n*/
