@@ -20,13 +20,16 @@ int n;/*n est un nombre entier integer*/
 char virgue = ',';
 char space = ' ';
 n = 0;/* n egale a 0*/
-while (n <= 9)/*Tant que n est plus petit a 9*/
+while (n <= 9)/*tant que n est plus petit a 9*/
 {
 putchar('0' + n);/*affiche n*/
+if (n < 9)
+{
 putchar(virgue);
 putchar(space);
+}
 n = n + 1;/*ajoute +1 a n*/
 }
 putchar('\n');/*Renvoie a la ligne*/
-return (n);/* retourne 0*/
+return (0);/* retourne 0*/
 }
