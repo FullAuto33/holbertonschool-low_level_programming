@@ -4,9 +4,10 @@
 #include <stdio.h>
 
 /**
- * main - I sometimes suffer from insomnia.
+ * main - Smile in the mirror
  *
- * Description: prints the alphabet in lowercase, followed by a new line.
+ * Description: prints the lowercase alphabet in reverse,
+ * followed by a new line.
  *
  * Return: Always 0.
  */
