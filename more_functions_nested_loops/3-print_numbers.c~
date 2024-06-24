@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * print_numbers - function that prints the numbers
+ * from 0 to 9, followed by a new line.
+ *
+ * Return: Always 0.
+*/
+
+void print_numbers(void)
+{
+int n;/*n est un nombre entier integer*/
+n = 0;/* n egale a 0*/
+while (n <= 9)/*Tant que n est plus petit a 9*/
+{
+_putchar(n);/*affiche n*/
+n = n + 1;/*ajoute +1 a n*/
+}
+_putchar('\n');/*Renvoie a la ligne*/
+}
