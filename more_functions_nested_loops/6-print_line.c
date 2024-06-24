@@ -17,7 +17,7 @@ _putchar('\n');
 }
 else
 {
-  for (compteur = 0; compteur < n; compteur++)
+for (compteur = 0; compteur < n; compteur++)
 {
 _putchar('_');
 }
