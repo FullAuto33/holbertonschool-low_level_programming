@@ -25,7 +25,7 @@ for (espace = 0; espace < compteur; espace++)
 _putchar(' ');
 }
 _putchar(92);
- _putchar('\n');
+_putchar('\n');
 }
 }
 }
