@@ -10,22 +10,17 @@
 void more_numbers(void)
 {
 int compteur = 0;
-int chiffre = 0; /* affecte le charactere 'a' a la variable lettre*/
+int chiffre = 0; /* affecte l entier 0  a la variable chiffre*/
 while (compteur < 10)
 {
-while (chiffre <= 14) /*Tant que lettre inferieur ou egal a z*/
+while (chiffre <= 14) /*Tant que chiffre inferieur  ou egal a 14*/
 {
-if (chiffre <= 9)
+if (chiffre > 9)
 {
-_putchar('0' + chiffre);/*Renvoie le charactere de lettre*/
-chiffre++;/*on change de lettre on ajoute 1 a la variable lettre*/
+_putchar('0' + chiffre / 10);
 }
-else
-{
-_putchar('0' + (chiffre / 10));
 _putchar('0' + (chiffre % 10));
- chiffre++;
-}
+chiffre++;
 }
 _putchar('\n');/*Renvoie un saut a la ligne*/
 compteur++;
