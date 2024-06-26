@@ -18,7 +18,7 @@ for (i = 0; str[i] != '\0'; i++)
 {
 compteur++;
 }
-for (i = 0; i <= compteur; i += 2)
+for (i = 0; i < compteur; i += 2)
 {
 lettre = str[i];
 _putchar(lettre);
