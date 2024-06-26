@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+ * rev_string - function that prints a string, in reverse
+ * followed by a new line.
+ * @s: charactere erverse
+ *
+ * Return: Always 0.
+*/
+
+void rev_string(char *s)
+{
+int taille = 0;
+int i;
+char lettre;
+for (i = 0; s[i] != '\0'; i++)
+taille++;
+i = 0;
+taille = taille - 1;
+while (i < taille)
+{
+
+lettre = s[taille];
+s[taille] = s[i];
+s[i] = lettre;
+i++;
+taille--;
+}
+}
