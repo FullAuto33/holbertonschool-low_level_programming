@@ -14,7 +14,7 @@ char lettre;
 for (i = 0; str[i] != '\0'; i++)
 {
 lettre = str[i];
-_putchar('0' + lettre);
+_putchar(lettre);
 }
 _putchar('\n');
 }
