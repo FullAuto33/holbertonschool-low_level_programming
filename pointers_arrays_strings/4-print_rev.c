@@ -17,7 +17,7 @@ for (i = 0; s[i] != '\0'; i++)
 {
 compteur++;
 }
-for (i = compteur; i >= 0; i--)
+for (i = compteur; i > 0; i--)
 {
 lettre = s[i];
 _putchar(lettre);
