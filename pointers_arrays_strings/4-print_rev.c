@@ -19,7 +19,7 @@ compteur++;
 }
 for (i = compteur; i > 0; i--)
 {
-lettre = s[i];
+lettre = s[i-1];
 _putchar(lettre);
 }
 _putchar('\n');
