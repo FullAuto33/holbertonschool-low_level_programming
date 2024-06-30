@@ -18,11 +18,11 @@ compteur++;
 }
 if ((compteur % 2) != 0)
 {
-i = (compteur - 1) / 2;
+i = ((compteur - 1) / 2) + 1;
 }
 else
 {
-i = (compteur / 2) + 1;
+i = compteur / 2;
 }
 for (; str[i] != '\0'; i++)
 {
