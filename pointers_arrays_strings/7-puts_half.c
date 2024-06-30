@@ -16,13 +16,13 @@ for (i = 0; str[i] != '\0'; i++)
 {
 compteur++;
 }
- if ((compteur % 2) != 0)
+if ((compteur % 2) != 0)
 {
 i = (compteur - 1) / 2;
 }
 else
 {
-i = compteur / 2;
+i = (compteur / 2) + 1;
 }
 for (; str[i] != '\0'; i++)
 {
