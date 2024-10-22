@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * print_alphabet_x10 - Function to affiche alphabet 10 fois
+ *
+ * Return: Always 0.
+ */
+void print_alphabet_x10(void)
+{
+int n;
+int c;
+c = 0;
+while (c < 10)
+{
+for (n = 0; n <= 10; n = n + 1)
+{
+print_alphabet(void);
+}
+c = c + 1;
+}
+_putchar('\n');
+}
