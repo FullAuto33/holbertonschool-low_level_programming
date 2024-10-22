@@ -9,9 +9,10 @@
 int main(void)
 {
 char lettre;
-for (lettre = 'a'; lettre < 'z'; lettre = lettre + 1)
+for (lettre = 'a'; lettre <= 'z'; lettre = lettre + 1)
 {
 putchar(lettre);
 }
+putchar('\n');
 return (0);
 }
