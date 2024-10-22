@@ -8,14 +8,18 @@
 
 int main(void)
 {
+char virgule;
+char espace;
 int n;
+virgule = ',';
+espace = ' ';
 for (n = 0; n <= 9; n = n + 1)
 {
-putchar("0" + n);
+putchar('0' + n);
 if (n < 9)
 {
-putchar(",");
-putchar(" ");
+putchar(virgule);
+putchar(espace);
 }
 }
 putchar('\n');
