@@ -11,7 +11,7 @@ int main(void)
 char lettre;
 for (lettre = 'a'; lettre <= 'z'; lettre = lettre + 1)
 {
-if (lettre != 'q' || lettre != 'e')
+if (lettre != 'q' && lettre != 'e')
 {
 putchar(lettre);
 }
