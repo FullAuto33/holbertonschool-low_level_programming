@@ -17,11 +17,10 @@ if (n < 0)
 {
 abs = n * -1;
 lastdigit = abs % 10;
+_putchar('0' + lastdigit);
 return (lastdigit);
 }
-else
-{
 lastdigit = n % 10;
+_putchar('0' + lastdigit);
 return (lastdigit);
-}
 }
