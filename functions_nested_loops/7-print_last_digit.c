@@ -19,6 +19,9 @@ abs = n * -1;
 lastdigit = abs % 10;
 return (lastdigit);
 }
+else
+{
 lastdigit = n % 10;
 return (lastdigit);
+}
 }
