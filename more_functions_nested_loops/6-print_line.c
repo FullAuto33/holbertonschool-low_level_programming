@@ -19,7 +19,7 @@ else
 {
 for (compteur = 0; compteur < n; compteur++)
 {
-  _putchar('_');
+_putchar('_');
 }
 _putchar('\n');
 }
