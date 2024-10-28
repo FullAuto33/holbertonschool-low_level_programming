@@ -10,8 +10,8 @@
 
 void print_diagonal(int n)
 {
-int compteur;
-int space;
+int compteur = 0;
+int space = 0;
 if (n <= 0)
 {
 _putchar('\n');
