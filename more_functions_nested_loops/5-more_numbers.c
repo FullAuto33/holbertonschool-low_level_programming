@@ -9,8 +9,8 @@
 void more_numbers(void)
 {
 int number;
-char compteur;
-for (compteur = 0; compteur < 9; number++)
+int compteur;
+for (compteur = 0; compteur <= 8; number++)
 {
 for (number = 0; number <= 14; number++)
 {
