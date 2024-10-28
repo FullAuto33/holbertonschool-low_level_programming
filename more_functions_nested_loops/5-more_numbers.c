@@ -9,7 +9,7 @@
 void more_numbers(void)
 {
 int number;
-char compteur;
+int compteur;
 for (compteur = 0; compteur <= 10; number++)
 {
 for (number = 0; number <= 14; number++)
