@@ -9,13 +9,21 @@
 void more_numbers(void)
 {
 int number;
-int compteur;
+char compteur;
 for (compteur = 0; compteur <= 10; number++)
 {
 for (number = 0; number <= 14; number++)
 {
-_putchar('0' + number);
+if (number > 9)
+{
+_putchar('0' + number / 10);
+}
+_putchar('0' + number % 10);
 }
 _putchar('\n');
+if (compteur == ';')
+{
+compteur = 11;
+}
 }
 }
