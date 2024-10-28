@@ -18,14 +18,16 @@ _putchar('\n');
 }
 else
 {
-for (compteur = 0; compteur < n; compteur++)
+while (compteur < n)
 {
-for (space = 0; space < n; space++)
+while (space < compteur)
 {
 _putchar(' ');
-}
+space++;
 }
 _putchar('\\');
 _putchar('\n');
+compteur++;
+}
 }
 }
