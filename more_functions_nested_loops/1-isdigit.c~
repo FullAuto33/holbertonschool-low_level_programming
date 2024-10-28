@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * _isupper - Check if is upper.
+ *
+ * @c : number decimal ascii
+ *
+ * Return: Always 0.
+ */
+
+int _isdigit(int c)
+{
+if (c >= 65 && c <= 90)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
