@@ -25,7 +25,7 @@ for (space = 0; space < n; space++)
 _putchar(' ');
 }
 _putchar('\\');
-}
 _putchar('\n');
+}
 }
 }
