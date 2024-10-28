@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_line - print linebas
+ * print_diagonal - print slashbar
  *
- * @n : number of line
+ * @n : number of slashbar
  *
  * Return: Always 0.
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 int compteur;
 if (n <= 0)
