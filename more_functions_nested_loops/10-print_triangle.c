@@ -18,7 +18,7 @@ _putchar('\n');
 }
 else
 {
-while (compteur <= size)
+while (compteur < size)
 {
 while (space < size)
 {
