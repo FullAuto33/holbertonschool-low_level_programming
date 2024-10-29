@@ -17,7 +17,7 @@ for (; s[nbrtab] != 0; nbrtab++)
 {
 compteur = compteur + 1;
 }
-for (; s[compteur] != 0; compteur--)
+for (; s[compteur] >= 0; compteur--)
 {
 letters = s[compteur];
 _putchar(letters);
