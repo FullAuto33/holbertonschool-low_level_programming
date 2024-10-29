@@ -20,12 +20,12 @@ else
 {
 while (compteur <= size)
 {
-while (space < compteur)
+while (space < size)
 {
-_putchar('#');
+_putchar(' ');
 space++;
 }
-_putchar(' ');
+_putchar('#');
 _putchar('\n');
 compteur++;
 space = 0;
