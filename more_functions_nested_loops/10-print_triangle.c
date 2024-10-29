@@ -18,14 +18,14 @@ _putchar('\n');
 }
 else
 {
-while (compteur < size)
+while (compteur <= size)
 {
 while (space < compteur)
 {
-_putchar('#');
+_putchar(' ');
 space++;
 }
-_putchar(' ');
+_putchar('#');
 _putchar('\n');
 compteur++;
 space = 0;
