@@ -11,9 +11,10 @@
 
 void _puts(char *str)
 {
+char letters = *str;
 int nbrtab = 0;
 for (; str[nbrtab] != 0; nbrtab++)
 {
-_putchar(*str);
+_putchar(letters);
 }
 }
