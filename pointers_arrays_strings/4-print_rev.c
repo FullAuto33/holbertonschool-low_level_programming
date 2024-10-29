@@ -22,5 +22,4 @@ for (; compteur >= 0; compteur--)
 letters = s[compteur];
 _putchar(letters);
 }
-_putchar('\n');
 }
