@@ -18,4 +18,5 @@ for (; str[nbrtab] != 0; nbrtab++)
 letters = str[nbrtab];
 _putchar(letters);
 }
+_putchar('\n');
 }
