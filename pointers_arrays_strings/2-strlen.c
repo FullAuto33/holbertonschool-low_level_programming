@@ -12,9 +12,10 @@
 int _strlen(char *s)
 {
 int nbrtab = 0;
+int compteur = 0;
 for (; s[nbrtab] != 0; nbrtab++)
 {
-return (nbrtab);
+compteur = compteur + 1;
 }
- return (0);
+return (compteur);
 }
