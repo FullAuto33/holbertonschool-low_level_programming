@@ -12,7 +12,7 @@ void print_triangle(int size)
 {
 int compteur = 0;
 int space = 0;
-int nbrhash = size - 1;
+int hashtag;
 if (size <= 0)
 {
 _putchar('\n');
@@ -21,20 +21,22 @@ else
 {
 while (compteur < size)
 {
+hashtag = size - 1 - compteur;
 while (space < size)
 {
+if (hashtag > space)
+{
 _putchar(' ');
-space++;
 }
- while (nbrhash < size)
+else
 {
 _putchar('#');
-nbrhash++;
 }
-_putchar('\n');
-nbrhash = size - space;
+space++;
+}
 compteur++;
 space = 0;
+_putchar('\n');
 }
 }
 }
