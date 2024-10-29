@@ -1,0 +1,34 @@
+#include "main.h"
+
+/**
+ * print_rev - print str reverse
+ *
+ *@s : str
+ *
+ * Return: Always 0.
+ */
+
+void print_rev(char *s)
+{
+char tabmot[100];
+char motalendroit;
+char reverse;
+int nbrtab = 0;
+int compteur = 0;
+for (; s[nbrtab] != 0; nbrtab++)
+{
+compteur = compteur + 1;
+}
+for (; s[nbrtab] != 0; nbrtab++)
+{
+motalendroit = s[nbrtab];
+tabmot[compteur] = motalendroit;
+}
+while (compteur != 0)
+{
+reverse[compteur] = tabmot[compteur];
+_putchar(reverse);
+compteur = compteur - 1;
+}
+_putchar('\n');
+}
