@@ -24,7 +24,7 @@ while (compteur >= 0)
   /*printf("%d", compteur);*/
 letters = s[compteur];
 printf("%c", letters);
-s[compteur] = letters;
+s[compteur2] = letters;
 compteur = compteur - 1;
 compteur2 = compteur2 + 1;
 }
