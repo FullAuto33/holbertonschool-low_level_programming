@@ -18,12 +18,13 @@ for (; s[nbrtab] != 0; nbrtab++)
 {
 compteur = compteur + 1;
 }
-while (compteur > 0)
+while (compteur >= 0)
 {
   /*printf("%d", compteur);*/
 letters = s[compteur];
 printf("%c", letters);
 compteur = compteur - 1;
 }
+*s = letters;
 printf("%c", letters);
 }
