@@ -20,7 +20,7 @@ compteur = compteur + 1;
 }
 while (compteur >= 0)
 {
-printf("%d", compteur);
+  /*printf("%d", compteur);*/
 letters = s[compteur];
 printf("%c", letters);
 compteur = compteur - 1;
