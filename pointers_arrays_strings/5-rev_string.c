@@ -20,6 +20,7 @@ compteur = compteur + 1;
 }
 for (; compteur > 1; compteur--)
 {
+_putchar('0' + compteur);
 letters = s[compteur];
 }
 printf("%c", letters);
