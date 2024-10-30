@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+
+void puts2(char *str)
+{
+char letters;
+int nbrtab = 0;
+for (; str[nbrtab] != 0; nbrtab = nbrtab + 2)
+{
+letters = str[nbrtab];
+}
+_putchar('\n');
+}
