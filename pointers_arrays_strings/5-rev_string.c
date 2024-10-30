@@ -23,7 +23,7 @@ while (nbrtab < compteur)
 letters = s[nbrtab];
 s[nbrtab] = s[compteur];
 s[compteur] = letters;
-printf("%c", s);
+printf("%s", s);
 nbrtab = nbrtab + 1;
 compteur = compteur - 1;
 }
