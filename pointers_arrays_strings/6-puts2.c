@@ -11,7 +11,11 @@ void puts2(char *str)
 {
 char letters;
 int nbrtab = 0;
-for (; str[nbrtab] != 0; nbrtab = nbrtab + 2)
+int compteur = 0;
+for (; str[compteur] != 0; compteur++)
+{
+}
+for (; str[nbrtab] != 0 || nbrtab <= compteur; nbrtab = nbrtab + 2)
 {
 letters = str[nbrtab];
 _putchar(letters);
