@@ -21,11 +21,11 @@ if (compteur % 2 != 0)
 moyenne = compteur - 1;
 moyenne = compteur / 2;
 }
-while (str[moyenne] != 0 || moyenne <= compteur)
+while (moyenne <= compteur)
 {
 letters = str[moyenne];
 _putchar(letters);
- moyenne++;
+moyenne++;
 }
 _putchar('\n');
 }
