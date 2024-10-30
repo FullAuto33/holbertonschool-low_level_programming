@@ -17,11 +17,13 @@ int compteur = 0;
 for (; s[compteur] != 0; compteur++)
 {
 }
+compteur = compteur - 1;
 while (nbrtab < compteur)
 {
 letters = s[nbrtab];
 s[nbrtab] = s[compteur];
 s[compteur] = letters;
+printf("%c", s);
 nbrtab = nbrtab + 1;
 compteur = compteur - 1;
 }
