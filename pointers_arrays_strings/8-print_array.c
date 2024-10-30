@@ -24,7 +24,8 @@ printf("%d, ", arrays);
 }
 else
 {
-printf("%d\n", arrays);
+printf("%d", arrays);
 }
 }
+printf("\n");
 }
