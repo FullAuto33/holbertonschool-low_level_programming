@@ -15,6 +15,14 @@ void print_array(int *a, int n)
 {
 int compteur = 0;
 int arrays;
+if (n < 1)
+{
+compteur = 0;
+}
+else
+{
+compteur = 1;
+}
 for (; compteur < n; compteur++)
 {
 arrays = a[compteur];
