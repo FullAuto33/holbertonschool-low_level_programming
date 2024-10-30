@@ -18,6 +18,7 @@ int arrays;
 for (; compteur < n; compteur++)
 {
 arrays = a[compteur];
-printf("%d", arrays);
+printf("%d, ", arrays);
 }
+printf("\n");
 }
