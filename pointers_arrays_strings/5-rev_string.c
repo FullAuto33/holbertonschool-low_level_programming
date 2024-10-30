@@ -25,5 +25,5 @@ letters = s[compteur];
 printf("%c", letters);
 compteur = compteur - 1;
 }
-printf("%c", letters);
+/*printf("%c", letters);*/
 }
