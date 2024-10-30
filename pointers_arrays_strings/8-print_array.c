@@ -18,7 +18,7 @@ int arrays;
 for (; compteur < n; compteur++)
 {
 arrays = a[compteur];
-if (compteur != n)
+if (compteur != n - 1)
 {
 printf("%d, ", arrays);
 }
