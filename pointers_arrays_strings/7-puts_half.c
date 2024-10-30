@@ -21,7 +21,7 @@ if (compteur % 2 != 0)
 moyenne = compteur - 1;
 }
 moyenne = compteur / 2;
-while (moyenne <= compteur)
+while (moyenne < compteur)
 {
 letters = str[moyenne];
 _putchar(letters);
