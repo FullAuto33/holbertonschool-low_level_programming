@@ -19,6 +19,7 @@ int tailletab = 0;
 for (; a[tailletab] != 0; tailletab++)
 {
 }
+printf("%d", tailletab);
 if (tailletab == n)
 {
 for (; compteur < n; compteur++)
