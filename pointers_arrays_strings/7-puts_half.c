@@ -19,7 +19,7 @@ for (; str[compteur] != 0; compteur++)
 moyenne = compteur / 2;
 if (compteur % 2 != 0)
 {
-moyenne = moyenne - 1;
+moyenne = moyenne + 1;
 }
 while (moyenne < compteur)
 {
