@@ -20,5 +20,6 @@ for (; compteur < n - 1; compteur++)
 arrays = a[compteur];
 printf("%d, ", arrays);
 }
+arrays = a[comteur + 1];
 printf("%d\n", arrays);
 }
