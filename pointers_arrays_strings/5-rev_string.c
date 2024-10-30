@@ -23,10 +23,10 @@ while (compteur >= 0)
 {
   /*printf("%d", compteur);*/
 letters = s[compteur];
+printf("%c", letters);
 s[compteur2] = s[nbrtab - compteur2 - 1];
 s[nbrtab - compteur2 - 1] = letters;
 compteur2++;
-printf("%c", letters);
 compteur = compteur - 1;
 }
 }
