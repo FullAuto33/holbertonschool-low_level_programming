@@ -16,11 +16,11 @@ int compteur = 0;
 for (; str[compteur] != 0; compteur++)
 {
 }
+moyenne = compteur / 2;
 if (compteur % 2 != 0)
 {
-moyenne = compteur - 1;
+moyenne = moyenne - 1;
 }
-moyenne = compteur / 2;
 while (moyenne < compteur)
 {
 letters = str[moyenne];
