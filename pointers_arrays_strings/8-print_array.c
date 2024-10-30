@@ -15,12 +15,16 @@ void print_array(int *a, int n)
 {
 int compteur = 0;
 int arrays;
-for (; compteur < n - 1; compteur++)
+for (; compteur < n; compteur++)
 {
 arrays = a[compteur];
+if (compteur != n)
+{
 printf("%d, ", arrays);
 }
-compteur++;
-arrays = a[compteur];
+else
+{
 printf("%d\n", arrays);
+}
+}
 }
