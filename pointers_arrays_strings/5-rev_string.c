@@ -26,5 +26,4 @@ printf("%c", letters);
 compteur = compteur - 1;
 }
 *s = letters;
-printf("%c", letters);
 }
