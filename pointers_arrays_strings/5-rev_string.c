@@ -14,14 +14,15 @@ void rev_string(char *s)
 char letters;
 int nbrtab = 0;
 int compteur = 0;
-for (; s[nbrtab] != 0; nbrtab++)
+for (; s[compteur] != 0; compteur++)
 {
-compteur = compteur + 1;
 }
-while (compteur >= 0)
+while (nbrtab < compteur)
 {
-letters = s[compteur];
-printf("%c", letters);
+letters = s[nbrtab];
+s[nbrtab] = s[compteur];
+s[compteur] = letters;
+nbrtab = nbrtab + 1;
 compteur = compteur - 1;
 }
 }
