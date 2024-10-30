@@ -15,14 +15,12 @@ void print_array(int *a, int n)
 {
 int compteur = 0;
 int arrays;
-if (n > 1)
+int tailletab = 0;
+for (; a[tailletab] != 0; tailletab++)
 {
-compteur = 0;
 }
-else
+if (tailletab == n)
 {
-compteur = 1;
-}
 for (; compteur < n; compteur++)
 {
 arrays = a[compteur];
@@ -34,5 +32,10 @@ else
 {
 printf("%d\n", arrays);
 }
+}
+}
+else
+{
+return;
 }
 }
