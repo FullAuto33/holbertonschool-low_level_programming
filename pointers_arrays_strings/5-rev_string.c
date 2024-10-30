@@ -18,7 +18,7 @@ for (; s[nbrtab] != 0; nbrtab++)
 {
 compteur = compteur + 1;
 }
-for (; compteur >= 0; compteur--)
+for (compteur = compteur + 1; compteur > 0; compteur--)
 {
 letters = s[compteur];
 }
