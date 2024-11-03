@@ -9,8 +9,8 @@
 */
 char *_strncpy(char *dest, char *src, int n)
 {
-  int compteur1 = 0;
-  int compteur2 = 0;
+int compteur1 = 0;
+int compteur2 = 0;
 
 for (; compteur1 < n && src[compteur1] != '\0'; compteur1++)
 {
