@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * _strcpy - Copies a string pointed to by @src, including the
+ *
+ *@dest : buffer
+ *
+ *@src : str source
+ *
+ */
+
+
+char *_strcpy(char *dest, char *src)
+{
+int compteur = 0;
+while (src[compteur])
+{
+dest[compteur] = src[compteur];
+compteur = compteur + 1;
+}
+return (dest);
+}
