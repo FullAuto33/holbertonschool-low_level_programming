@@ -1,14 +1,15 @@
 #include "main.h"
 
+
 /**
  * _strcpy - copied str
  *
- *@dest : buffer
+ *@dest : destination to str
  *
- *@src : str source
+ *@src : source str
  *
+ * Return: Always 0.
  */
-
 
 char *_strcpy(char *dest, char *src)
 {
