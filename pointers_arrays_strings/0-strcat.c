@@ -14,13 +14,11 @@ int compteur2 = 0;
 
 for (; dest[compteur1] != '\0'; compteur1++)
 {
+}
 for (; src[compteur2] != '\0'; compteur2++)
 {
-dest[compteur1] = src[compteur2];
-compteur1++;
-}
+dest[compteur1 + compteur2] = src[compteur2];
 }
 
-dest[compteur1] = '\0';
 return (dest);
 }
