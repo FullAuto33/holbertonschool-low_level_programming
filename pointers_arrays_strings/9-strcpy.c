@@ -18,5 +18,6 @@ while (src[compteur])
 dest[compteur] = src[compteur];
 compteur = compteur + 1;
 }
+dest[compteur] = '\0';
 return (dest);
 }
