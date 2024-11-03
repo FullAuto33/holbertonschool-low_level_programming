@@ -15,7 +15,7 @@ int compteur2 = 0;
 for (; dest[compteur1] != '\0'; compteur1++)
 {
 }
-for (; compteur1 < n || src[compteur2] != '\0'; compteur2++)
+for (; compteur1 < n && src[compteur2] != '\0'; compteur2++)
 {
 dest[compteur1 + compteur2] = src[compteur2];
 }
