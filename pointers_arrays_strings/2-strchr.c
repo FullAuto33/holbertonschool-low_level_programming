@@ -12,7 +12,7 @@
 char *_strchr(char *s, char c)
 {
 int compteur = 0;
-for (; s[compteur] > '\0'; compteur++)
+for (; s[compteur] >= '\0'; compteur++)
 {
 if (s[compteur] == c)
 {
