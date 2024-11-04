@@ -16,6 +16,7 @@ unsigned int compteur = 0;
 char *result = s;
 while (compteur < n)
 {
+s = s + 1;
 *s = b;
 compteur = compteur + 1;
 }
