@@ -17,9 +17,9 @@ int compteur = 0;
 int compteursubstring = 0;
 int compteur2 = 0;
 
-while (s[compteur] >= '\0')
+while (s[compteur] != '\0')
 {
-while (accept[compteur2] >= '\0')
+while (accept[compteur2] != '\0')
 {
 if (s[compteur] == accept[compteur2])
 {
