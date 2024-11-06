@@ -22,7 +22,7 @@ for (; compteur < (size * size); compteur = compteur + taille)
 x = a[compteur] + x;
 }
 for (compteur = taillemoins; compteur < (size * taillemoins);
-compteur = taillemoins)
+compteur = compteur + taillemoins)
 {
 y = a[compteur] + y;
 }
