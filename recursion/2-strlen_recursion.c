@@ -15,5 +15,6 @@ if (s[0] != '\0')
 compteur = compteur + 1;
 _strlen_recursion(s + 1);
 }
+compteur = compteur - 1;
 return('0' + compteur);
 }
