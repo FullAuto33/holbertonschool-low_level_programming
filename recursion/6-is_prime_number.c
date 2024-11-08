@@ -12,6 +12,10 @@ if (n % n2 == 0)
 {
 return (0);
 }
+if (n2 * n2 > n)
+{
+return (1);
+}
 return (prime(n, n2 + 1));
 }
 
