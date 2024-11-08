@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * prime - print 1 if is prime number
+ *@n: integer of number prime
+ *@n2: integer if is prime
  *
  * Return: Always 0.
  */
@@ -18,6 +20,13 @@ return (1);
 }
 return (prime(n, n2 + 1));
 }
+
+/**
+ *  is_prime_number - print 1 if is prime number
+ *@n: integer of number prime
+ *
+ * Return: Always 0.
+ */
 
 int is_prime_number(int n)
 {
