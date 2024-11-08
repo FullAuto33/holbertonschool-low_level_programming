@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - print multiplie
- * @argc: arg counter 
+ * @argc: arg counter
  * @argv: argv
  *
  * Return: 1
