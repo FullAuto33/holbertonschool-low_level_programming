@@ -35,6 +35,6 @@ return (0);
 }
 else
 {
-return (prime(n, 3));
+return (prime(n, 2));
 }
 }
