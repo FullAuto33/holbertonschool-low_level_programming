@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - print multiplie
+ * @argc: arg counter
+ * @argv: argv
+ *
+ * Return: 1
+ */
+
+
+int main(int argc, char *argv[])
+{
+int result = 0;
+int compteur = 1;
+int compteur2 = 0;
+if (argc == 1)
+{
+printf("0\n");
+return (0);
+}
+for (; compteur < argc; compteur++)
+{
+for (; argv[compteur][compteur2] != '\0'; compteur2++)
+{
+if (argv[i][j] < '0' || argv[i][j] > '9')
+{
+printf("Error\n");
+return (1);
+}
+}
+result = atoi(argv[i]) + result;
+}
+printf("%d\n", result);
+return (0);
+}
