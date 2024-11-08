@@ -11,20 +11,13 @@
 
 void print_diagsums(int *a, int size)
 {
-int compteur = 0;
-int x = 0;
-int y = 0;
-int taille = size + 1;
-int taillemoins = size - 1;
-
-for (; compteur < (size * size); compteur = compteur + taille)
+int diag1 = 0;
+int diag2 = 0;
+int compteur;
+for (compteur = 0; compteur < size; compteur++)
 {
-x = a[compteur] + x;
+diag1 += a[compteur * size + compteur];
+diag2 += a[compteur * size + (size - 1 - compteur)];
 }
-for (compteur = taillemoins; compteur < (size * taillemoins);
-compteur = compteur + taillemoins)
-{
-y = a[compteur] + y;
-}
-printf("%d, %d\n", x, y);
+printf("%d, %d\n", diag1, diag2);
 }
