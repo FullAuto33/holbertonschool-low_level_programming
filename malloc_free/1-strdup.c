@@ -18,7 +18,10 @@ if (str == NULL)
 {
 return (NULL);
 }
-
+if (ar == NULL)
+{
+return (NULL);
+}
 for (; str[taille] != '\0'; taille++)
 {
 }
