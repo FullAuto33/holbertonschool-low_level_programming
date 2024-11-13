@@ -18,14 +18,16 @@ if (str == NULL)
 {
 return (NULL);
 }
-if (ar == NULL)
-{
-return (NULL);
-}
 for (; str[taille] != '\0'; taille++)
 {
 }
 ar = malloc(taille * sizeof(*ar) + 1);
+
+if (ar == NULL)
+{
+return (NULL);
+}
+
 for (; compteur < taille; compteur++)
 {
 ar[compteur] = str[compteur];
