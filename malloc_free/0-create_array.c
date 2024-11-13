@@ -19,6 +19,10 @@ if (size == 0)
 {
 return (NULL);
 }
+if (ar == NULL)
+{
+return (NULL);
+}
 for (; compteur < size; compteur++)
 {
 ar[compteur] = c;
