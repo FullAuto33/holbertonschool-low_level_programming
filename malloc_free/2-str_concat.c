@@ -30,6 +30,7 @@ for (; s1[tailles1] != '\0'; tailles1++)
 for (; s2[tailles2] != '\0'; tailles2++)
 {
 }
+tailles2++;
 ar = malloc(tailles1 * sizeof(*s1) + tailles2 * sizeof(*s2));
 if (ar == NULL)
 {
