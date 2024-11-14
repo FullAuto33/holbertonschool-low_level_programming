@@ -47,5 +47,6 @@ ar[compteur] = s2[compteurs2];
 compteurs2++;
 }
 }
+ar[s1 + s2] = '\0';
 return (ar);
 }
