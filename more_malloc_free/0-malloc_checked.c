@@ -14,7 +14,7 @@ char *ptr;
 ptr = malloc(sizeof(b));
 if (ptr == NULL)
 {
-return (NULL);
+exit(98);
 }
 return (ptr);
 }
