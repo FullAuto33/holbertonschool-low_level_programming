@@ -1,0 +1,56 @@
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * string_nconcat - concatene two str
+ * @s1: first str
+ * @s2: second str
+ * @n: size of array
+ *
+ * Return: Always 0.
+ */
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
+  char *ptr;
+  unsigned int tailles1 = 0;
+  unsigned int tailles2 = 0;
+  unsigned int compteur = 0;
+  unsigned int compteur2 = 0;
+  for (;s2[tailles2] != '\0'; tailles2++)
+    {
+    }
+  if (n >= tailles2)
+    {
+      ptr = malloc(sizeof(*s1) * sizeof(*s2));
+    }
+  else if (n < tailles2)
+    {
+      ptr = malloc(sizeof(*s1) + n);
+    }
+  if (ptr == NULL)
+    {
+      return (NULL);
+    }
+  for(;compteur < tailles1; compteur++)
+    {
+      ptr[compteur] = s1[compteur];
+    }
+  if (n >= tailles2)
+    {
+      for (;compteur2 < tailles2; compteur2++)
+	{
+	  ptr[compteur] = s2[compteur2];
+	  compteur++;
+	}
+    }
+  else if (n < tailles2)
+    {
+      for (;compteur2 < n; compteur2++)
+	{
+	  ptr[compteur] = s2[compteur2];
+	  compteur++;
+	}
+    }
+return(ptr);
+}
