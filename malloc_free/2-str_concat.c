@@ -16,11 +16,11 @@ int tailles1 = 0;
 int tailles2 = 0;
 int compteur = 0;
 int compteurs2 = 0;
-if (s1 == 0)
+if (s1 == NULL)
 {
 s1 = "";
 }
-if (s2 == 0)
+if (s2 == NULL)
 {
 s2 = "";
 }
