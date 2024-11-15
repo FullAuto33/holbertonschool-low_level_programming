@@ -2,55 +2,62 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - concatene two str
- * @s1: first str
- * @s2: second str
- * @n: size of array
+ * string_nconcat - Concatenates two strings
+ * @s1: First string
+ * @s2: Second string
+ * @n: Number of bytes from s2 to include
  *
- * Return: Always 0.
+ * Return: Pointer to newly allocated memory with concatenated strings,
+ *         or NULL if memory allocation fails.
  */
-
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+char* string_nconcat(char* s1, char* s2, unsigned int n)
 {
-  char *ptr;
-  unsigned int tailles1 = 0;
-  unsigned int tailles2 = 0;
-  unsigned int compteur = 0;
-  unsigned int compteur2 = 0;
-  for (;s2[tailles2] != '\0'; tailles2++)
-    {
-    }
-  if (n >= tailles2)
-    {
-      ptr = malloc(sizeof(*s1) * sizeof(*s2));
-    }
-  else if (n < tailles2)
-    {
-      ptr = malloc(sizeof(*s1) * n);
-    }
-  if (ptr == NULL)
-    {
-      return (NULL);
-    }
-  for(;compteur < tailles1; compteur++)
-    {
-      ptr[compteur] = s1[compteur];
-    }
-  if (n >= tailles2)
-    {
-      for (;compteur2 < tailles2; compteur2++)
-	{
-	  ptr[compteur] = s2[compteur2];
-	  compteur++;
-	}
-    }
-  else if (n < tailles2)
-    {
-      for (;compteur2 < n; compteur2++)
-	{
-	  ptr[compteur] = s2[compteur2];
-	  compteur++;
-	}
-    }
-return(ptr);
+char *ptr;
+unsigned int tailles1 = 0;
+unsigned int tailles2 = 0; 
+unsigned int i; 
+unsigned int j;
+
+if (s1 == NULL)
+{
+s1 = "";
+}
+if (s2 == NULL)
+{
+s2 = "";
+}
+
+while (s1[tailles1] != '\0')
+{
+tailles1++;
+}
+while (s2[tailles2] != '\0')
+{
+tailles2++;
+}
+
+if (n >= tailles2)
+{
+n = tailles2;
+}
+
+ptr = malloc((tailles1 + n + 1) * sizeof(char));
+if (ptr == NULL)
+{
+return (NULL);
+}
+
+
+for (i = 0; i < tailles1; i++)
+{
+ptr[i] = s1[i];
+}
+
+
+for (j = 0; j < n; j++)
+{
+ptr[i + j] = s2[j];
+}
+ptr[i + j] = '\0';
+return (ptr);
 }
