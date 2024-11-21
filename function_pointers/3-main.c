@@ -2,6 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - check the code
+ * @argc: argument number
+ * @argv: argument valeur
+ *
+ * Return: Always 0.
+ */
+
 int main(int argc, char *argv[])
 {
 int num1;
@@ -21,8 +29,7 @@ if (operator == NULL)
 printf("Error\n");
 exit(99);
 }
-
 resultat = operator(num1, num2);
 printf("%d\n", resultat);
-return (0);  
+return (0);
 }

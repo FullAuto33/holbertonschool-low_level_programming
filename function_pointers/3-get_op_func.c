@@ -1,6 +1,13 @@
 #include "3-calc.h"
 #include <stdio.h>
 
+/**
+ * get_op_func - pointer select correct operator
+ * @s: pointer operator
+ *
+ * Return: Always operator operation.
+ */
+
 int (*get_op_func(char *s))(int, int)
 {
 op_t ops[] = {
@@ -12,9 +19,9 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i;
-while ( i <= 4)
+while (i <= 4)
 {
-if(*s == *ops[i].op && s[1] == '\0')
+if (*s == *ops[i].op && s[1] == '\0')
 {
 return (ops[i].f);
 }
