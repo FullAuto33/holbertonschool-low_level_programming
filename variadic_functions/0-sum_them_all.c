@@ -8,7 +8,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-int somme;
+unsigned int somme;
 int resultat;
 unsigned int compteur = 0;
 
@@ -21,8 +21,9 @@ return (0);
 }
 for (; compteur < n; compteur++)
 {
-somme = va_arg(arg, unsigned int);
+somme = va_arg(arg, int);
 resultat = resultat + somme;
 }
+va_end (arg);
 return (resultat);
 }
