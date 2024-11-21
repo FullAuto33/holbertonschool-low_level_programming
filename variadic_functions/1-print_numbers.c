@@ -19,7 +19,7 @@ va_start(arg, n);
 for (; compteur < n; compteur++)
 {
 resultat = va_arg(arg, int);
-printf("%i", resultat);
+printf("%d", resultat);
 if (compteur < (n - 1) && separator != NULL)
 {
 printf("%s ", separator);
