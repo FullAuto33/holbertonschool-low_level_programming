@@ -14,7 +14,6 @@ unsigned int compteur = 0;
 
 va_list arg;
 va_start(arg, n);
- 
 if (n == 0)
 {
 return (0);
@@ -24,6 +23,6 @@ for (; compteur < n; compteur++)
 somme = va_arg(arg, int);
 resultat = resultat + somme;
 }
-va_end (arg);
+va_end(arg);
 return (resultat);
 }
