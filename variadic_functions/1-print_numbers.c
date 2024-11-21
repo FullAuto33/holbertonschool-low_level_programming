@@ -22,7 +22,7 @@ resultat = va_arg(arg, int);
 printf("%d", resultat);
 if (compteur < (n - 1) && separator != NULL)
 {
-printf("%s ", separator);
+printf("%s", separator);
 }
 }
 va_end(arg);
