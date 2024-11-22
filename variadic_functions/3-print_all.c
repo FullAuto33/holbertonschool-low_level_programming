@@ -82,9 +82,9 @@ va_start(arg, format);
 while (formats[compteur1] != '\0' && format != NULL)
 {
 compteur2 = 0;
-while (formats[compteur2].n != '\0')
+while (formats[compteur2].f != '\0')
 {
-if (formats[compteur1] == formats[compteur2].n)
+if (formats[compteur1] == formats[compteur2].f)
 {
 printf("%s", separator1);
 formats[compteur2].f(arg);
