@@ -17,7 +17,7 @@ va_list arg;
 va_start(arg, n);
 for (; compteur < n; compteur++)
 {
-*resultat = va_arg(arg, char);
+resultat = va_arg(arg, char *);
 if (resultat == NULL)
 {
 printf("(nil)");
