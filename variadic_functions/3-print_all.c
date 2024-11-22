@@ -4,18 +4,6 @@
 
 
 /**
- * struct formats_f - struct format
- * @n: char
- * @f: pointer function f
- */
-
-typedef struct formats_f
-{
-char n;
-void (*f)(va_list);
-} formats_f;
-
-/**
  * print_char - print char
  * @arg: argument char
  *
