@@ -2,6 +2,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * struct formats_f - struct to map format specifiers to functions
+ * @n: format specifier character
+ * @f: function pointer to the corresponding print function
+ */
+typedef struct formats_f
+{
+    char n;
+    void (*f)(va_list);
+} formats_f;
 
 /**
  * print_char - print char
