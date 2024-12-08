@@ -14,5 +14,5 @@ while (h != NULL)
 compteur++;
 h = h->next;
 }
-return(compteur);
+return (compteur);
 }
