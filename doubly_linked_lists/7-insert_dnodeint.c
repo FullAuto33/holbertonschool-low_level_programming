@@ -1,6 +1,15 @@
 #include "lists.h"
 #include <stdlib.h>
 
+
+/**
+ * insert_dnodeint_at_index - insert node in idx position in list
+ * @h: double pointer to head
+ *@idx: postion to node
+ * @n: int to node
+ * Return: Always EXIT_SUCCESS.
+ */
+
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 dlistint_t *noeud = *h;
