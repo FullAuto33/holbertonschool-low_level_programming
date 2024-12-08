@@ -1,0 +1,38 @@
+#include "lists.h"
+
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
+{
+dlistint_t *noeud = *head;
+
+if (*head == NULL)
+{
+return (-1);
+}
+for (; index != 0; index--)
+{
+if (neoud == NULL)
+{
+return (-1);
+}
+noeud = noeud->next;
+}
+
+if (noeud == *head)
+{
+*head = noeud->next;
+if (*head != NULL)
+{
+(*head)->prev = NULL;
+}
+}
+
+else
+{
+noeud->prev->next = tmp->next;
+if (noeud->next != NULL)
+noeud->next->prev = noeud->prev;
+}
+
+free(noeud);
+return (1);
+}
