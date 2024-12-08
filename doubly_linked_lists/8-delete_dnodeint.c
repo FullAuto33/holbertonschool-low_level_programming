@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
  * delete_dnodeint_at_index - go to index and delete the node
@@ -17,7 +18,7 @@ return (-1);
 }
 for (; index != 0; index--)
 {
-if (neoud == NULL)
+if (noeud == NULL)
 {
 return (-1);
 }
@@ -35,7 +36,7 @@ if (*head != NULL)
 
 else
 {
-noeud->prev->next = tmp->next;
+noeud->prev->next = noeud->next;
 if (noeud->next != NULL)
 noeud->next->prev = noeud->prev;
 }
