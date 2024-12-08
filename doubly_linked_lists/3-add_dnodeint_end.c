@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * add_dnodeibt_end - add node in end of list
+ * add_dnodeint_end - add node in end of list
  *@head: double pointer of head
- *@n: int of noeud 
+ *@n: int of noeud
  * Return: Always EXIT_SUCCESS.
  */
 
