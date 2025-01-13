@@ -1,3 +1,11 @@
+#include "main.h"
+
+/**
+* _strcmp - compare two char
+* @s1 : char one
+* @s2 : char two
+* Return: Always 0.
+*/
 int _strcmp(char *s1, char *s2)
 {
 while (*s1 && *s2)
@@ -11,4 +19,3 @@ s2++;
 }
 return (0);
 }
- 
